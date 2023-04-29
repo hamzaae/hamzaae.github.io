@@ -78,7 +78,7 @@ section {
     transform: translateY(0) scale(1);
 }
 
-.active {
+.active{
     display: block;
     animation: appear 1s ease-in-out;
     @keyframes appear {
@@ -244,10 +244,8 @@ section {
     }
 }
 
-
-
 //Independed components
-.btn-con {
+.btn-con{
     display: flex;
     align-self: flex-start;
 }
