@@ -78,7 +78,7 @@ section {
     transform: translateY(0) scale(1);
 }
 
-.active {
+.active{
     display: block;
     animation: appear 1s ease-in-out;
     @keyframes appear {
@@ -179,12 +179,17 @@ section {
     }
 }
 
+//About
+
+
+
 //Independed components
-.btn-con {
+.btn-con{
     display: flex;
     align-self: flex-start;
 }
-.main-btn {
+
+.main-btn{
     border-radius: 30px;
     color: inherit;
     font-weight: 600;
@@ -224,3 +229,4 @@ section {
     }
 
 }
+
